@@ -1,0 +1,182 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+audio, canvas, video { display: inline-block; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+[hidden] { display: none; }
+
+html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+a:focus { outline: thin dotted; }
+
+a:active, a:hover { outline: 0; }
+
+h1 { font-size: 2em; }
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: 700; }
+
+dfn { font-style: italic; }
+
+mark { background: #ff0; color: #000; }
+
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+
+pre { white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: \201C \201D \2018 \2019; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sup { top: -.5em; }
+
+sub { bottom: -.25em; }
+
+img { border: 0; }
+
+svg:not(:root) { overflow: hidden; }
+
+fieldset { border: 1px solid silver; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
+
+button, input { line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+
+button[disabled], input[disabled] { cursor: default; }
+
+input[type=checkbox], input[type=radio] { box-sizing: border-box; padding: 0; }
+
+input[type=search] { -webkit-appearance: textfield; box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration { -webkit-appearance: none; }
+
+textarea { overflow: auto; vertical-align: top; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+body, figure { margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { box-sizing: border-box; }
+
+html { font-size: 62.5%; }
+
+body { font-size: 1.6rem; background-color: #ddd4cc; background: -webkit-linear-gradient(bottom, rgba(121, 146, 148, 0.8), rgba(195, 180, 166, 0.8)); background: linear-gradient(to top, rgba(121, 146, 148, 0.8), rgba(195, 180, 166, 0.8)); margin: 0; padding: 0; }
+
+p, h1, h2, h3 { margin: 0; padding: 0; }
+
+p { font-size: 2rem; line-height: 1.7; font-family: "Josefin Sans", sans-serif; color: #362d2a; }
+
+h1 { font-family: "Yeseva One", cursive; color: #b6706e; text-shadow: 1px 1px 1px #61504c; font-size: 6rem; letter-spacing: 5px; }
+
+h2 { font-family: "Yeseva One", cursive; color: #534540; font-size: 2.5rem; letter-spacing: 3px; }
+
+h3 { font-family: "Yeseva One", cursive; color: #453935; font-size: 2.2rem; letter-spacing: 4px; }
+
+ul { margin-top: 2%; padding: 2% 0; }
+
+ul li { list-style-type: none; padding: 1%; color: #5E8B91; font-size: 1.9rem; font-family: "Josefin Sans", sans-serif; font-weight: bold; letter-spacing: 2px; }
+
+fieldset { border: none; }
+
+.newQuoteButton, .startAgainButton { margin: 2% 0 4% 0; padding: 2.5%; box-shadow: inset 1px 1px 5px #d3c7bd, inset 1px 1px 5px #ddd4cc; border-radius: 3px; border: 0; background: #B09C8B; color: #ddd4cc; font-family: "Josefin Sans", sans-serif; font-size: 2.5rem; }
+
+.newQuoteButton:hover, .newQuoteButton:focus, .startAgainButton:hover, .startAgainButton:focus { background: #b6706e; outline: 0; }
+
+body .wrapper { background: -webkit-linear-gradient(top, rgba(157, 176, 178, 0.7), rgba(221, 212, 204, 0.7)); background: linear-gradient(to bottom, rgba(157, 176, 178, 0.7), rgba(221, 212, 204, 0.7)); max-width: 1080px; margin: 0 auto; text-align: center; padding-bottom: 50px; }
+
+body .wrapper header { padding: 6% 7% 0 7%; }
+
+body .wrapper header h1 { margin: 0; padding-bottom: 1%; }
+
+body .wrapper header h2 { padding: 1% 0 5% 0; }
+
+body .wrapper header img { width: 170px; height: 170px; }
+
+body .wrapper header .introText { width: 75%; margin: 0 auto; }
+
+body .wrapper header .introText .empathyDef { padding: 0; font-size: 3rem; color: #b6706e; text-shadow: 1px 1px 1px #c9baad; font-weight: bold; letter-spacing: 4px; }
+
+body .wrapper header .introText .introPre { line-height: 1.2; padding-bottom: 5%; color: #8e7561; letter-spacing: 2px; font-weight: bold; }
+
+body .wrapper header .introText .introPost { padding-top: 5%; }
+
+body .wrapper main.empathyGenerator form { padding: 1% 3% 3% 3%; }
+
+body .wrapper main.empathyGenerator form h3 { padding: 5% 0; }
+
+body .wrapper main.empathyGenerator form .mhIssue { padding: 3% 0 4% 0; }
+
+body .wrapper main.empathyGenerator form input[type="radio"] { visibility: hidden; position: absolute; }
+
+body .wrapper main.empathyGenerator form label { position: relative; width: -webkit-calc(50% - 5%); width: calc(50% - 5%); float: left; margin-left: 5%; text-align: left; padding: 2%; font-family: "Josefin Sans", sans-serif; font-size: 1.8rem; font-weight: bold; letter-spacing: 3px; }
+
+body .wrapper main.empathyGenerator form label::before { content: ''; display: inline-block; width: 15px; height: 15px; position: absolute; left: -40px; top: 15px; border: 10px solid #5E8B91; border-radius: 50%; z-index: 5; }
+
+body .wrapper main.empathyGenerator form .selected::after { content: ''; display: inline-block; width: 15px; height: 15px; position: absolute; left: -40px; top: 15px; border: 10px solid #5E8B91; background: #B09C8B; border-radius: 50%; z-index: 10; }
+
+body .wrapper main.empathyGenerator form .submit { margin: 3% 0; padding: 2.5%; box-shadow: inset 1px 1px 3px #cfc2b7, 1px 1px 3px #cfc2b7; border-radius: 3px; border: 0; background: #B09C8B; color: #ddd4cc; text-transform: lowercase; text-shadow: 1px 1px 1px #453935; font-family: "Josefin Sans", sans-serif; font-size: 2.5rem; }
+
+body .wrapper main.empathyGenerator form .submit:hover, body .wrapper main.empathyGenerator form .submit:focus { background: #b6706e; outline: 0; }
+
+body .wrapper main.empathyGenerator .result { display: none; padding: 0 2%; }
+
+body .wrapper main.empathyGenerator .result .quoteIntro { margin: 2% 0; }
+
+body .wrapper main.empathyGenerator .result .quote { color: #b6706e; margin: 4% 0; font-size: 4rem; }
+
+body .wrapper main.empathyGenerator .result .notToSay { margin-top: 2%; padding: 2%; }
+
+body footer { background: #c5b6a9; max-width: 100%; padding: 0 1%; }
+
+body footer p { font-size: 1.7rem; color: #61504c; }
+
+body footer .copyright { width: 50%; float: left; padding: 1%; }
+
+body footer .moreHelp { width: 50%; float: left; text-align: right; padding: 2% 1% 1% 1%; }
+
+body footer a { text-decoration: none; color: #a05351; }
+
+body footer a:hover { color: #5E8B91; }
+
+@media (max-width: 940px) { body form { padding: 0 5%; }
+  body footer { padding: 1%; }
+  body footer .copyright, body footer .moreHelp { text-align: center; width: 100%; padding: 0; } }
+
+@media (max-width: 767px) { body .wrapper header { padding-top: 8%; }
+  body .wrapper header .introText { width: 100%; }
+  body .wrapper .empathyGenerator .result .quote { font-size: 3rem; }
+  body .wrapper main.empathyGenerator form label { width: -webkit-calc(100% - 10%); width: calc(100% - 10%); margin-left: 10%; }
+  body .wrapper main.empathyGenerator form label::before { top: 8px; }
+  body .wrapper main.empathyGenerator form .selected::after { top: 8px; }
+  ul { padding: 3% 5%; } }
+
+@media (max-width: 480px) { body .wrapper header { padding-top: 10%; }
+  body .wrapper header img { margin-top: 4%; }
+  body .wrapper header .introText .empathyDef { font-size: 2.5rem; }
+  body .wrapper main.empathyGenerator form { padding: 6%; }
+  body .wrapper main.empathyGenerator form label { width: -webkit-calc(100% - 13%); width: calc(100% - 13%); margin-left: 13%; padding: 3% 0 3% 3%; }
+  body .wrapper main.empathyGenerator form .submit { padding: 5%; }
+  body .wrapper main.empathyGenerator .result .quoteIntro { margin: 6% 0; }
+  body .wrapper main.empathyGenerator .result .quote { font-size: 2.5rem; }
+  .newQuoteButton, .startAgainButton { margin: 7% 0 12% 0; padding: 5%; }
+  ul { margin: 5% 0; }
+  ul li { padding: 2%; font-size: 1.7rem; color: #5E8B91; } }
+
+@media (max-width: 375px) { body .wrapper header { padding-top: 15%; }
+  body .wrapper header img { margin-top: 7%; }
+  body .wrapper header .introText .empathyDef { font-size: 4rem; color: #b6706e; font-weight: bold; text-shadow: none; padding: 0 0 2% 0; }
+  body .wrapper header .introText .empathyDef span { display: none; }
+  body .wrapper header h1 { font-size: 4rem; margin-bottom: 10%; }
+  body .wrapper main.empathyGenerator form label { padding: 5% 0 5% 5%; }
+  body .wrapper main.empathyGenerator form .submit { margin-top: 8%; }
+  ul li { font-size: 1.9rem; } }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>I Feel You | Empathy Generator</title>
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Yeseva+One|Josefin+Sans' rel='stylesheet' type='text/css'>
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="styles/main.css">
+	<script>
+	 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	 ga('create', 'UA-73724698-1', 'auto');
+	 ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>I Feel You.</h1>
+			<h2>What To Say When You're Not Sure What To Say.</h2>
+			<img src="images/lotusIcon.svg" alt="">
+			<div class="introText">
+				<p class="empathyDef">empathy <span>| em  &#8226; puh &#8226; thee</span></p>
+				<p class="introPre">The feeling that you understand and share another person's experiences and emotions.</p>
+				<p>We all know someone who is struggling with grief, depression, anxiety, or trauma. Acknowledging someone’s pain can make a huge difference.</p>
+				<p class="introPost">Sometimes we want to be helpful but don’t know how. Let us help.</p>
+			</div>
+		</header>
+		<main class="empathyGenerator">
+			<form action="">
+				<fieldset class="relationship clearfix">
+					<h3>I Am A(n)...</h3>
+					<input type="radio" name="relationship" value="acquaintance" id="acquaintance" required="required">
+					<label for="acquaintance">Acquaintance / Colleague</label>
+					<input type="radio" name="relationship" value="friend" id="friend" required="required">
+					<label for="friend">Friend</label>
+					<input type="radio" name="relationship" value="family" id="family" required="required">
+					<label for="family">Family member / Close friend</label>
+					<input type="radio" name="relationship" value="partner" id="partner" required="required">
+					<label for="partner">Partner</label>
+				</fieldset>
+				<fieldset class="mhIssue clearfix">
+					<h3>I Need Wording For…</h3>
+					<input type="radio" name="mhIssue" value="loss" id="loss" required="required">
+					<label for="loss">Loss (eg: death, break up, career, miscarriage, infertility)</label>
+					<input type="radio" name="mhIssue" value="depression" id="depression" required="required">
+					<label for="depression">Depression (eg: acute, bipolar disorder, postpartum, clinical)</label>
+					<input type="radio" name="mhIssue" value="anxiety" id="anxiety" required="required">
+					<label for="anxiety">Anxiety (eg: general, panic, social, PTSD)</label>
+					<input type="radio" name="mhIssue" value="trauma" id="trauma" required="required">
+					<label for="trauma">Trauma (eg: accidents, abuse, assault, medical)</label>
+				</fieldset>
+				<input type="submit" class="submit" value="Here's how to help">
+			</form>
+			<section class="result" id="result">
+				<div class="toSay">
+				</div>
+				<button class="newQuoteButton">I'd rather say something else</button>
+				<div class="notToSay">
+					<h3>* Please Do Not Say...</h3>
+					<ul>
+						<li>"Everything happens for a reason."</li>
+						<li>"At least you still have..." / "Let's look for the silver lining..."</li>
+						<li>"You'll have another..." / You'll meet another..."</li>
+						<li>"Be strong." / "Suck it up."</li>
+						<li>"Other people have it worse."</li>
+						<li>"I TOTALLY couldn't manage that."</li>
+						<li>Any form of victim blaming (eg: "What were you wearing?", "Snap out of it.")</li>
+					</ul>
+					<p>* The above statements can be perceived as dismissive and unkind.</p>
+				</div>
+			</section>
+		</main>
+	</div> <!-- End of wrapper -->
+	<footer class="clearfix">
+		<div class="copyright">
+			<p>&#169; 2016 | <a href="http://laurendavid.ca">Lauren David</a> & <a href="http://owencraig.ca">Owen Craig</a></p>
+			<p>Content contributions by <a href="http://jennieormson.com">Jennie Ormson</a></p>
+		</div>
+
+		<p class="moreHelp">For more help, visit the <a href="http://cmha.ca">Canadian Mental Health Association</a></p>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="javaScript/script.js"></script>
+</body>
+</html>
+
+<!-- SVG Created by To Uyen from the Noun Project -->
+
